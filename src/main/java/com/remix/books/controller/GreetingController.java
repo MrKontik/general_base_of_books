@@ -16,4 +16,9 @@ public class GreetingController {
         return "index";
     }
 
+    @GetMapping("/index")
+    public String indexredirect() {
+        return "redirect:/";
+    }
+
 }

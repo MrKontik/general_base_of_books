@@ -11,7 +11,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @NotEmpty
-    private String login;
+    private String username;
     @NotEmpty
     private String password;
     private boolean online;
@@ -25,12 +25,12 @@ public class User {
     }
 
 
-    public String getLogin() {
-        return login;
+    public String getUsername() {
+        return username;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
