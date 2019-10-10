@@ -5,6 +5,8 @@
 
 <@page.page "Login">
 <@header.header "in"/>
+<main role="main" class="flex-shrink-0">
+    <div class="container">
 <#if RequestParameters.error??>
 <div>
     Invalid username and password.
@@ -16,5 +18,7 @@
         </div>
     </#if>
 <@login.login "/login"/>
+</div>
+</main>
 <@footer.footer/>
 </@page.page>

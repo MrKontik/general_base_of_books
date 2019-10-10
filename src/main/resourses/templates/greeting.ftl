@@ -4,6 +4,8 @@
 
 <@page.page "Books">
     <@header.header "out"/>
+    <div class="container">
     <h1>Hello!</h1>
+    </div>
     <@footer.footer/>
 </@page.page>

@@ -7,6 +7,8 @@
 
 <@page.page "Register">
     <@header.header "in"/>
+    <main role="main" class="flex-shrink-0">
+    <div class="container">
     New User
     <@login.login "/registration"/>
     <#if message??>
@@ -14,5 +16,7 @@
             ${message}
         </div>
     </#if>
+    </div>
+    </main>
     <@footer.footer/>
 </@page.page>
